@@ -2435,7 +2435,7 @@ MonoBehaviour:
       - useVariable: 1
         name: LightType
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
         networkSync: 0
         value: Good
       vector2Variables: []
