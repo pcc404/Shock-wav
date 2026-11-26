@@ -545,6 +545,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3492660460485538051, guid: 8d0a40f9087671849aae5f8c1b9ef6e4, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4560140513216257383, guid: 8d0a40f9087671849aae5f8c1b9ef6e4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 500
@@ -588,6 +592,10 @@ PrefabInstance:
     - target: {fileID: 5185409264119584858, guid: 8d0a40f9087671849aae5f8c1b9ef6e4, type: 3}
       propertyPath: m_Name
       value: 3pscontroller Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8748386429281651578, guid: 8d0a40f9087671849aae5f8c1b9ef6e4, type: 3}
+      propertyPath: fsm.variables.floatVariables.Array.data[0].value
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -975,13 +983,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 7780189447581439477, guid: 729f4fd7733d82a4fa6cd516f6bb846e, type: 3}
+      propertyPath: m_Height
+      value: 4.183344
+      objectReference: {fileID: 0}
+    - target: {fileID: 7780189447581439477, guid: 729f4fd7733d82a4fa6cd516f6bb846e, type: 3}
+      propertyPath: m_Center.y
+      value: -3.7877073
+      objectReference: {fileID: 0}
     - target: {fileID: 8030371919177346268, guid: 729f4fd7733d82a4fa6cd516f6bb846e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 551.6
       objectReference: {fileID: 0}
     - target: {fileID: 8030371919177346268, guid: 729f4fd7733d82a4fa6cd516f6bb846e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.8
+      value: 31.98
       objectReference: {fileID: 0}
     - target: {fileID: 8030371919177346268, guid: 729f4fd7733d82a4fa6cd516f6bb846e, type: 3}
       propertyPath: m_LocalPosition.z
