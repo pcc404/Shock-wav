@@ -972,6 +972,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3093299652604633768, guid: 729f4fd7733d82a4fa6cd516f6bb846e, type: 3}
+      propertyPath: fsm.variables.floatVariables.Array.data[0].value
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3093299652604633768, guid: 729f4fd7733d82a4fa6cd516f6bb846e, type: 3}
       propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
       value: 
       objectReference: {fileID: 2046426271}
